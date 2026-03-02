@@ -79,7 +79,7 @@ musanzePotatoMarket/
 ## 🌐 Hosting
 
 - **Hosting Provider:** InfinityFree (PHP + MySQL)
-- **Hosted Link:** [http://musanzepotatomarket.infinityfreeapp.com/musanzePotatoMarket/public/index.php?page=login]
+- **Hosted Link:** [http://potatomarket.infinityfreeapp.com/musanzePotatoMarket/public/index.php?page=login]
 
 ---
 

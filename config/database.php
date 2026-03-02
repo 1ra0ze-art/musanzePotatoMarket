@@ -2,10 +2,10 @@
 // config/database.php
 // Central database configuration — included everywhere via autoload
 
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'musanze_potato');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', 'sql311.infinityfree.com');
+define('DB_NAME', 'if0_41288827_musanzemarket');
+define('DB_USER', 'if0_41288827');
+define('DB_PASS', 'Group4feb');
 
 function getDB() {
     static $pdo = null;
