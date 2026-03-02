@@ -1,10 +1,4 @@
-// assets/js/main.js
-// Role 5: JavaScript Interaction Engineer
 
-// -----------------------------------------------
-// AUTO-COMPUTE TOTAL
-// Runs every time quantity or price changes
-// -----------------------------------------------
 function computeTotal() {
     let total = 0;
     document.querySelectorAll('.item-row').forEach(row => {

@@ -87,20 +87,13 @@ musanzePotatoMarket/
 
 | Name | Role |
 |---|---|
-| [Name 1] | Role 1 — Product Planner & Documentation |
-| [Name 2] | Role 2 — UI/UX Designer |
-| [Name 3] | Role 3 — HTML Structure Engineer |
-| [Name 4] | Role 4 — CSS & Responsiveness Engineer |
-| [Name 5] | Role 5 — JavaScript Interaction Engineer |
+| [Irakoze Fredy] | Role 1 — Product Planner & Documentation |
+| [Umubyeyi Ange] | Role 2 — UI/UX Designer |
+| [Inezayijuru Brigite] | Role 3 — HTML Structure Engineer |
+| [Basel Motasim Mohammed Abdalla] | Role 4 — CSS & Responsiveness Engineer |
+| [Sangwa Rwirangira Yvan] | Role 5 — JavaScript Interaction Engineer |
 | [Name 6] | Role 6 — Backend PHP MVC Engineer |
-| [Name 7] | Role 7 — Database, Git & Deployment |
-
----
-
-## 📧 Submission
-
-**Email:** mclement@ines.ac.rw  
-**Subject:** Ass#2_Advanced Web_Group#[N]_II_FEB_B
+| [Tuyishime Cynthia] | Role 7 — Database, Git & Deployment |
 
 ---
 
