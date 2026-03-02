@@ -79,7 +79,7 @@ musanzePotatoMarket/
 ## 🌐 Hosting
 
 - **Hosting Provider:** InfinityFree (PHP + MySQL)
-- **Hosted Link:** [Add your link here after deployment]
+- **Hosted Link:** [http://musanzepotatomarket.infinityfreeapp.com/musanzePotatoMarket/public/index.php?page=login]
 
 ---
 
@@ -92,7 +92,7 @@ musanzePotatoMarket/
 | [Inezayijuru Brigite] | Role 3 — HTML Structure Engineer |
 | [Basel Motasim Mohammed Abdalla] | Role 4 — CSS & Responsiveness Engineer |
 | [Sangwa Rwirangira Yvan] | Role 5 — JavaScript Interaction Engineer |
-| [Name 6] | Role 6 — Backend PHP MVC Engineer |
+| [Emad Siddig Ahmed Farah] | Role 6 — Backend PHP MVC Engineer |
 | [Tuyishime Cynthia] | Role 7 — Database, Git & Deployment |
 
 ---
