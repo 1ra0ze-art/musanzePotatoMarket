@@ -35,5 +35,5 @@ Screenshots were taken for each test case during development.
 
 ---
 
-*Testing performed by: Group [Your Group Number]*  
+*Testing performed by: Group [Group 4]*  
 *Date: March 2026*

@@ -45,5 +45,20 @@ class Supplier {
     public function count() {
         return $this->db->query("SELECT COUNT(*) as cnt FROM suppliers")->fetch()['cnt'];
     }
+    // Update a supplier
+public function update($id, $data) {
+    $stmt = $this->db->prepare("
+        UPDATE suppliers 
+        SET full_name = ?, phone = ?, location = ?, national_id = ?
+        WHERE id = ?
+    ");
+    return $stmt->execute([
+        $data['full_name'],
+        $data['phone'],
+        $data['location'],
+        $data['national_id'],
+        $id
+    ]);
+}
 }
 ?>

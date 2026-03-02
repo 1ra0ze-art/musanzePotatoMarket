@@ -9,6 +9,10 @@
         <div class="section">
             <h2>Register New Supplier</h2>
 
+            <?php if (isset($_GET['updated'])): ?>
+    <div class="alert alert-success">✅ Supplier updated successfully!</div>
+<?php endif; ?>
+
             <?php if (!empty($success)): ?>
                 <div class="alert alert-success">✅ <?= htmlspecialchars($success) ?></div>
             <?php endif; ?>
@@ -62,11 +66,13 @@
                         <td><?= htmlspecialchars($s['phone'] ?: '—') ?></td>
                         <td><?= htmlspecialchars($s['location'] ?: '—') ?></td>
                         <td><?= date('d/m/Y', strtotime($s['registered_at'])) ?></td>
-                        <td>
-                            <a href="?page=suppliers&delete=<?= $s['id'] ?>"
-                               onclick="return confirm('Remove <?= htmlspecialchars($s['full_name']) ?>?')"
-                               class="btn btn-danger btn-sm">🗑️ Remove</a>
-                        </td>
+                       <td style="display:flex; gap:6px;">
+    <a href="?page=suppliers-edit&id=<?= $s['id'] ?>"
+       class="btn btn-sm">✏️ Edit</a>
+    <a href="?page=suppliers&delete=<?= $s['id'] ?>"
+       onclick="return confirm('Remove <?= htmlspecialchars($s['full_name']) ?>?')"
+       class="btn btn-danger btn-sm">🗑️ Remove</a>
+</td>
                     </tr>
                     <?php endforeach; ?>
                 </tbody>

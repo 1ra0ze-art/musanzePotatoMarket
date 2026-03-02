@@ -81,6 +81,11 @@ switch ($page) {
         $controller->index();
         break;
 
+    case 'suppliers-edit':
+        $controller = new SupplierController();
+        $controller->edit();
+        break;    
+
     case 'orders':
         $controller = new OrderController();
         $controller->create();
