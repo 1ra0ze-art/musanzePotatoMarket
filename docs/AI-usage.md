@@ -1,5 +1,5 @@
 # AI Usage Documentation
-## Musanze Potato Market — Group [Your Group Number]
+## Musanze Potato Market — Group 4
 
 This document is required to show how AI tools were used as a learning
 aid, not as a replacement for understanding.
